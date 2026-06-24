@@ -1,4 +1,4 @@
-# 🔎 AgentLens
+# 🔎 AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent
 
 This is the official repository for the paper **AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent**.
 
