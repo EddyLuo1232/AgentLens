@@ -1,4 +1,4 @@
-# AgentLens / Agent MechSuits
+# 🔍 AgentLens / Agent MechSuits
 
 This is the official repository for the paper **AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent**.
 
@@ -14,7 +14,7 @@ The paper also introduces **MAS (Mechanistic Agent Safety)**, a step-annotated b
 | LLaMA-3.1-8B | `MAS/LLaMA/train.json` | `MAS/LLaMA/test.json` |
 | Qwen-2.5-7B | `MAS/Qwen/train.json` | `MAS/Qwen/test.json` |
 
-## Set Up
+## ⚙️ Set Up
 
 Create a Python environment with the core dependencies:
 
@@ -36,7 +36,7 @@ or pass it directly:
 python agentlens.py --openrouter_api_key your_key
 ```
 
-## Data
+## 📊 Data
 
 MAS contains step-level coding-agent trajectories with labels:
 
@@ -53,7 +53,7 @@ The current local split sizes are:
 
 `train_probe.py` is restricted to these MAS train/test splits.
 
-## Training Probes
+## 🧪 Training Probes
 
 Train a LLaMA probe:
 
@@ -77,7 +77,7 @@ results/meta-llama/Llama-3.1-8B-Instruct/LLaMA/hidden_state/<layer>/best_model.c
 embeddings/meta-llama/Llama-3.1-8B-Instruct/LLaMA/hidden_state/<layer>/precomputed_embeddings.json
 ```
 
-## AgentLens Steering
+## 🛡️ AgentLens Steering
 
 Run adaptive AgentLens steering with:
 
@@ -107,7 +107,7 @@ The script:
 
 Use `--debug` to bypass probe detection and steer every sample.
 
-## Manual Steering
+## 🎛️ Manual Steering
 
 For fixed-direction steering experiments:
 
@@ -125,7 +125,7 @@ python manual_steering.py \
 
 This script is useful for causal validation, including negative steering experiments that test whether the learned subspace can push refusal states toward unsafe behavior.
 
-## Evaluation
+## ✅ Evaluation
 
 Evaluate safety of generated trajectories:
 
@@ -148,7 +148,7 @@ python eval.py \
 
 `eval.py` uses OpenAI-compatible chat completion calls. Set the API key in the script or adapt it to read from your environment.
 
-## Citation
+## 📚 Citation
 
 If you find this code or MAS useful, please cite:
 
