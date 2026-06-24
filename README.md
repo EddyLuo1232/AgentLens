@@ -2,7 +2,7 @@
 
 This is the official repository for the paper **AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent**.
 
-Paper PDF: [`agentlens.pdf`](./agentlens.pdf)
+Paper PDF: [`https://arxiv.org/pdf/2606.22673`](https://arxiv.org/pdf/2606.22673)
 
 AgentLens is a white-box safety framework for multi-turn coding agents. Instead of treating agent safety as a one-time task-level decision, AgentLens monitors the agent during execution. It trains lightweight linear probes on step-level hidden states, detects harmful execution states at runtime, and steers the model in a sparse safety-relevant subspace when risk is detected.
 
