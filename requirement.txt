@@ -1,0 +1,11 @@
+accelerate
+numpy
+openai
+pandas
+python-dotenv
+torch
+tqdm
+transformers
+
+# Required by manual_steering.py
+nnsight

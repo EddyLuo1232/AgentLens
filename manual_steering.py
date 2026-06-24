@@ -354,13 +354,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="/home/lcwt/eddy/agentx2/agentx/models/LLM-Research/gemma-2-9b-it",
+        default="models/LLM-Research/gemma-2-9b-it",
         help="Path to the language model"
     )
     parser.add_argument(
         "--probe_model_path",
         type=str,
-        default="/home/lcwt/eddy/agentx2/agentx/models/_home_lcwt_eddy_agentx2_agentx_models_LLM-Research_gemma-2-9b-it/gemma2_OS/hidden_state/14/best_model.pth",
+        default="models/LLM-Research/gemma-2-9b-it/Gemma/hidden_state/14/best_model.pth",
         help="Path to the probe model .pth file for extracting top-k dimensions"
     )
     parser.add_argument(
@@ -372,13 +372,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data_path",
         type=str,
-        default="/home/lcwt/eddy/agentx2/agentx/data/vrap2/Gemma/rejected_gemma.json",
+        default="MAS/Gemma/testset.json",
         help="Path to the labeled data JSON file"
     )
     parser.add_argument(
         "--output_path",
         type=str,
-        default="/home/lcwt/eddy/agentx2/agentx/data/vrap2/Gemma/result/attack_results.json",
+        default="results/Gemma/manual_steering.json",
         help="Path to save the before/after steering results JSON file"
     )
     parser.add_argument(

@@ -7,8 +7,8 @@ Both tasks accept a single JSON file and judge each trajectory independently:
   --task collapse : Detect collapse in before/after fields (evaluate_collapse_json)
 
 Usage:
-  python eval.py --task safety   --input data/vrap2/LLaMA/result/agent_mechsuits.json --field after_steer
-  python eval.py --task collapse --input data/vrap2/LLaMA/result/agent_mechsuits.json
+  python eval.py --task safety   --input results/LLaMA/agentlens.json --field after_steer
+  python eval.py --task collapse --input results/LLaMA/agentlens.json
 """
 
 import argparse
