@@ -1,5 +1,11 @@
 # 🔎 AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent
 
+**Weidi Luo¹ · Qiming Zhang² · Yihao Quan³ · Mingyu Jin³ · Jie Cai⁴ · Chaowei Xiao⁵ · Jingcheng Niu⁶ · Zhen Xiang¹†**
+
+¹ University of Georgia · ² University of South Florida · ³ Rutgers University<br>
+⁴ University of Southern California · ⁵ Johns Hopkins University · ⁶ Independent<br>
+† Corresponding author
+
 This is the official repository for the paper **AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent**.
 
 **Accepted to NeurIPS 2026.**
