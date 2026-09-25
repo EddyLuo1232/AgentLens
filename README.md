@@ -4,9 +4,8 @@ This is the official repository for the paper **AgentLens: Interpretable Safety 
 
 **Accepted to NeurIPS 2026.**
 
-Project page: [`https://eddyluo.com/agentlensweb/`](https://eddyluo.com/agentlensweb/)
-
-Paper PDF: [`https://arxiv.org/pdf/2606.22673`](https://arxiv.org/pdf/2606.22673)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Visit-4F46E5?style=flat-square)](https://eddyluo.com/agentlensweb/)
+[![Paper](https://img.shields.io/badge/arXiv-2606.22673-B31B1B?style=flat-square)](https://arxiv.org/pdf/2606.22673)
 
 AgentLens is a white-box safety framework for multi-turn coding agents. Instead of treating agent safety as a one-time task-level decision, AgentLens monitors the agent during execution. It trains lightweight linear probes on step-level hidden states, detects harmful execution states at runtime, and steers the model in a sparse safety-relevant subspace when risk is detected.
 
