@@ -1,4 +1,4 @@
-# 🔎 AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent
+# [**NeurIPS 2026**] AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent
 
 **Weidi Luo¹ · Qiming Zhang² · Yihao Quan³ · Mingyu Jin³ · Jie Cai⁴ · Chaowei Xiao⁵ · Jingcheng Niu⁶ · Zhen Xiang¹†**
 
@@ -6,12 +6,12 @@
 ⁴ University of Southern California · ⁵ Johns Hopkins University · ⁶ Independent<br>
 † Corresponding author
 
+<p align="center">
+  <a href="https://eddyluo.com/agentlensweb/"><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-Visit-4F46E5?style=flat-square"></a>
+  <a href="https://arxiv.org/pdf/2606.22673"><img alt="Paper" src="https://img.shields.io/badge/arXiv-2606.22673-B31B1B?style=flat-square"></a>
+</p>
+
 This is the official repository for the paper **AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent**.
-
-**Accepted to NeurIPS 2026.**
-
-[![Project Page](https://img.shields.io/badge/Project%20Page-Visit-4F46E5?style=flat-square)](https://eddyluo.com/agentlensweb/)
-[![Paper](https://img.shields.io/badge/arXiv-2606.22673-B31B1B?style=flat-square)](https://arxiv.org/pdf/2606.22673)
 
 AgentLens is a white-box safety framework for multi-turn coding agents. Instead of treating agent safety as a one-time task-level decision, AgentLens monitors the agent during execution. It trains lightweight linear probes on step-level hidden states, detects harmful execution states at runtime, and steers the model in a sparse safety-relevant subspace when risk is detected.
 
