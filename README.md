@@ -1,10 +1,12 @@
-# [**NeurIPS 2026**] AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent
+<h1 align="center">[<strong>NeurIPS 2026</strong>] AgentLens: Interpretable Safety Steering via Mechanistic Subspaces for Multi-Turn Coding Agent</h1>
 
-**Weidi Luo¹ · Qiming Zhang² · Yihao Quan³ · Mingyu Jin³ · Jie Cai⁴ · Chaowei Xiao⁵ · Jingcheng Niu⁶ · Zhen Xiang¹†**
+<p align="center"><strong>Weidi Luo¹ · Qiming Zhang² · Yihao Quan³ · Mingyu Jin³ · Jie Cai⁴ · Chaowei Xiao⁵ · Jingcheng Niu⁶ · Zhen Xiang¹†</strong></p>
 
+<p align="center">
 ¹ University of Georgia · ² University of South Florida · ³ Rutgers University<br>
 ⁴ University of Southern California · ⁵ Johns Hopkins University · ⁶ Independent<br>
 † Corresponding author
+</p>
 
 <p align="center">
   <a href="https://eddyluo.com/agentlensweb/"><img alt="Project Page" src="https://img.shields.io/badge/Project%20Page-Visit-4F46E5?style=flat-square"></a>
